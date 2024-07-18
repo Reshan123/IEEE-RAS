@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#742581',
+        primary: '#62106c',
+        secondary: '#98132f',
       },
       backgroundImage: {
         'gradient-to-transparent': 'linear-gradient(to right, #742581, transparent)',

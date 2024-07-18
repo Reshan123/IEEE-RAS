@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/WIE_logo.png";
+import logo from "../assets/logo.png";
 
 export default function Header() {
     return(
         <header class="">
   <div class="relative flex max-w-screen-2xl flex-col overflow-hidden  py-2 px-4 md:mx-auto md:flex-row md:items-center">
     <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
-      <img src={logo} alt="Logo" className="w-60"/>
+      <img src={logo} alt="Logo" className="w-32"/>
     </a>
     <input type="checkbox" class="peer hidden" id="navbar-open" />
     <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
