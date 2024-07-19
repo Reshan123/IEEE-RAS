@@ -4,8 +4,9 @@ import robot from "../assets/robo.png"
 
 export default function About() {
     return (
-        <section class="pb-10 ">
-            <div class="container mx-auto px-4">
+        <>
+        <section class="pb-10 px-20">
+            <div class="container mx-auto ">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Who are we?</h2>
                     <p class="text-gray-600 text-md text-center max-w-2xl">Welcome to the heartbeat of innovation, the IEEE Robotics and Automation
@@ -15,9 +16,9 @@ export default function About() {
                 </div>
             </div>
 
-            <div class="container mx-auto px-4 mt-16">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                    <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+            <div class="container mx-auto mt-16">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="flex flex-col items-center justify-center space-y-6 p-8 bg-gray-200 rounded-xl">
                         <h3 class="text-3xl font-bold text-secondary text-center"><span className="text-xl text-primary">We Are</span><br />Innovators</h3>
                         <p class="text-gray-600 text-md text-center">At our core, we are a diverse group of tech enthusiasts, from coding maestros to
                             robotics aficionados. Together, we are breaking barriers and pushing the limits of
@@ -27,7 +28,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+                    <div class="flex flex-col items-center justify-center space-y-6 p-8 bg-gray-200 rounded-xl">
                         <h3 class="text-3xl font-bold text-secondary text-center"><span className="text-xl text-primary">We Are</span><br />Visionaries</h3>
                         <p class="text-gray-600 text-md text-center">Our members aren't just followers; we are trailblazers in the world of robotics and
                             automation. We actively shape the future through cutting-edge projects that
@@ -36,7 +37,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+                    <div class="flex flex-col items-center justify-center space-y-6 p-8 bg-gray-200 rounded-xl">
                         <h3 class="text-3xl font-bold text-secondary text-center"><span className="text-xl text-primary">We Are</span><br />Collaborators</h3>
                         <p class="text-gray-600 text-md text-center">In our community, collaboration isn't just encouraged; it's essential. We believe in
                             the power of teamwork, where collective efforts lead to groundbreaking
@@ -45,7 +46,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+                    <div class="flex flex-col items-center justify-center space-y-6 p-8 bg-gray-200 rounded-xl">
                         <h3 class="text-3xl font-bold text-secondary text-center"><span className="text-xl text-primary">We Are</span><br />Forward Thinkers</h3>
                         <p class="text-gray-600 text-md text-center">The future isn't a distant concept for us — it's something we actively code and
                             shape. Our forward-thinking approach aligns with the transformative power of
@@ -56,8 +57,10 @@ export default function About() {
                 </div>
 
             </div>
+            </section>
+            
 
-            <div className="my-20 w-full mx-auto">
+            <div className="my-20 w-full mx-auto ">
                 <div className="relative flex gap-20 md:px-40 sm:px-32  max-[640px]:px-14 bg-cover filter ">
                     <div className="absolute  inset-0 bg-gradient-to-r from-primary to-secondary "></div>
                     <div className="relative z-10">
@@ -77,7 +80,7 @@ export default function About() {
                 </div>
             </div>
 
-
+            <section class="pb-10 px-20">
 
             <div class="container mx-auto  mt-16 bg-gray-100 rounded-2xl">
                 <div class="grid grid-cols-1 md:grid-cols-2 ">
@@ -114,7 +117,7 @@ export default function About() {
 
             </div>
 
-            <div class="container mx-auto px-4 mt-20">
+            <div class="container mx-auto  mt-20">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Strategic Focus</h2>
                     <p class="text-gray-600 text-md text-center max-w-2xl">SLIIT IEEE RAS is strategically positioned to elevate technological innovation at
@@ -123,7 +126,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div class="container mx-auto px-4 mt-16">
+            <div class="container mx-auto mt-16">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                     <div class="flex flex-col items-center justify-center space-y-6 p-6 bg-gray-200 rounded-xl">
@@ -177,9 +180,10 @@ campaigns, and media collaborations.
                 </div>
 
             </div>
+            </section>
 
 
-
-        </section>
+        
+        </>
     )
 }

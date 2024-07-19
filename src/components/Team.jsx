@@ -14,6 +14,7 @@ export default function Team() {
 
                 </div>
             </div>
+            <section class="pb-10 px-20">
             <div class="container mx-auto  mt-16 bg-gray-200 rounded-2xl">
                 <div class="grid grid-cols-1 md:grid-cols-2 ">
                     <div className="grid p-10">
@@ -38,7 +39,7 @@ export default function Team() {
                     </div>
                     
 
-                    <div className="grid gap-6 my-10 mr-10">
+                    <div className="grid gap-6 my-10 mx-10">
                         <div class="flex flex-col items-start justify-center space-y-6 p-10 bg-gradient-to-br from-primary to-secondary  rounded-xl shadow-xl">
                             <h3 class="text-2xl font-bold text-white text-left">Forging the Path to Excellence</h3>
                             <p class="text-white text-md text-left">Establishing SLIIT IEEE RAS was not a mere endeavor; it was a journey of resilience and commitment. Through challenges and triumphs, our chapter has evolved, setting the stage for technological excellence.
@@ -67,6 +68,7 @@ export default function Team() {
                 </div>
 
             </div>
+            </section>
 
             <section class="max-w-screen-2xl px-10 mx-auto my-20">
 

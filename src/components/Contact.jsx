@@ -32,17 +32,9 @@ export default function Contact() {
                                 <ul className="mb-6 md:mb-0">
                                     <li className="flex items-center mb-8">
                                         <div class="flex items-center justify-center gap-x-5 ">
-                                            <a href="" aria-label="Find us on LinkedIn"
-                                                target="_blank" rel="noopener">
-                                                <svg class="h-6 w-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M44.45 0H3.55A3.5 3.5 0 0 0 0 3.46v41.07A3.5 3.5 0 0 0 3.54 48h40.9A3.51 3.51 0 0 0 48 44.54V3.46A3.5 3.5 0 0 0 44.45 0Zm-30.2 40.9H7.11V18h7.12v22.9Zm-3.57-26.03a4.13 4.13 0 1 1-.02-8.26 4.13 4.13 0 0 1 .02 8.26ZM40.9 40.9H33.8V29.77c0-2.66-.05-6.08-3.7-6.08-3.7 0-4.27 2.9-4.27 5.89V40.9h-7.1V18h6.82v3.12h.1c.94-1.8 3.26-3.7 6.72-3.7 7.21 0 8.54 4.74 8.54 10.91V40.9Z"
-                                                        fill="currentColor"></path>
-                                                </svg>
-
-                                            </a>
+                                            
                                         
-                                            <a href="" aria-label="Find us on Facebook" target="_blank"
+                                            <a href="https://bit.ly/IEEE_RAS_FB" aria-label="Find us on Facebook" target="_blank"
                                                 rel="noopener">
                                                 <svg class="h-6 w-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -51,7 +43,7 @@ export default function Contact() {
                                                 </svg>
 
                                             </a>
-                                            <a href="" aria-label="Find us on Instagram" target="_blank"
+                                            <a href="https://bit.ly/IEEE_RAS_ING" aria-label="Find us on Instagram" target="_blank"
                                                 rel="noopener">
                                                 <svg class="h-6 w-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -65,36 +57,16 @@ export default function Contact() {
                                             </a>
                                         </div>
                                     </li>
-                                    <li className="flex items-center mb-8">
-                                        <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
-                                        </div>
-                                        <div className="ml-4">
-                                            <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white">IEEE Membership Redirect</h3>
-
-                                        </div>
-                                    </li>
-                                    <li className="flex items-center mb-8">
-                                        <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
-                                        </div>
-                                        <div className="ml-4">
-                                            <h3 className=" text-lg font-medium leading-6 text-gray-900 dark:text-white">IEEE WIE Membership Redirect</h3>
-
-                                        </div>
-                                    </li>
-                                    <li className="flex items-center mb-8">
-                                        <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
-                                        </div>
-                                        <div className="ml-4">
-                                            <h3 className=" text-lg font-medium leading-6 text-gray-900 dark:text-white">Join IEEE WIE of SLIIT</h3>
-
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p><iframe className="rounded-xl" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126745.6272212363!2d79.829906!3d6.9143985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1721225834362!5m2!1sen!2slk" width="400" height="150" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-                                    </li>
+                                    
+                                    
+                                </ul>
+                                <ul class="grid gap-6 items-center  space-y-2 md:ml-auto md:flex-row md:space-y-0 font-semibold" >
+                                    <li class="text-gray-300 border-b border-gray-500"><a href="#">Useful Links</a></li>
+                                    <li class="text-gray-300"><a href="#">Home</a></li>
+                                    <li class="text-gray-300"><a href="#">Join Us</a></li>
+                                    <li class="text-gray-300"><a href="#">About Us</a></li>
+                                    <li class="text-gray-300"><a href="#">Committee</a></li>
+                                    <li class="text-gray-300"><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">

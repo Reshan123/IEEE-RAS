@@ -17,32 +17,33 @@ export default function Hero() {
             
             
             <div class="container   relative z-10">
-                <div class="flex flex-col md:flex-row items-center justify-between bg-gradient-to-r from-primary from-10%" >
+                <div class="flex flex-col md:flex-row items-center justify-between mx-auto bg-gradient-to-r from-primary from-10%" >
                     <div class="w-full md:w-1/2 mb-12 md:mb-0   p-20">
                         <h1 class="text-5xl text-white md:text-6xl font-bold mb-6 leading-tight">
                         Welcome to the Future with IEEE RAS at SLIIT
                         </h1>
-                        <p class="text-xl mb-8 text-white">Join women transforming tech and empowerment. Support IEEE WIE's mission in all STEM fields.</p>
+                        <p class="text-xl mb-8 text-white">
+                        Join us in advancing robotics and automation with cutting-edge technology and limitless creativity.</p>
                         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                             <a href="#" class="bg-white text-primary font-bold px-8 py-3 rounded-full hover:bg-blue-100 transition duration-300 text-center">Join Us</a>
                         </div>
                     </div>
                     
-                    <div class="w-full md:w-1/2 md:pl-12">
+                    <div class="w-full mx-auto md:w-1/3 md:pl-12">
                         <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-2xl">
-                            <h2 class="text-2xl font-semibold mb-6">Why MyCompany?</h2>
+                            <h2 class="text-2xl font-semibold mb-6">Why IEEE RAS at SLIIT?</h2>
                             <ul class="space-y-4">
                                 <li class="flex items-center">
-                                    <svg class="w-6 h-6 mr-3 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                    <span>Lightning-fast Performance</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="yellow" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>                                    
+                                <span className="pl-2">Innovative Projects</span>
                                 </li>
                                 <li class="flex items-center">
-                                    <svg class="w-6 h-6 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                                    <span>Bank-grade Security</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00ff2c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-route"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>                                    
+                                <span className="pl-2">Expert Guidance</span>
                                 </li>
                                 <li class="flex items-center">
-                                    <svg class="w-6 h-6 mr-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
-                                    <span>AI-powered Insights</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00beff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg>                                    
+                                <span className="pl-2">Collaborative Community</span>
                                 </li>
                             </ul>
                         </div>
