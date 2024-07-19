@@ -8,141 +8,103 @@ import Nisuni from "../assets/Nisuni.JPG"
 export default function Team() {
     return (
         <>
-            <section class="max-w-screen-2xl px-10 mx-auto mb-32">
-                <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Past executive board<span class="text-black">.</span></h1>
-                <p class=" text-gray-600 text-md text-center max-w mb-10">Recognizing the Past Executive Committee Members of IEEE WIE Affinity Group 2022/23  of SLIIT, whose dedication and leadership paved the way for our organization's success.</p>
-                <div class="mx-auto grid  grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-5 pb-24">
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="#">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
-                                
-                            </div>
+            <div class="container mx-auto px-4 mt-10">
+                <div class="flex flex-col items-center justify-center space-y-8">
+                    <h2 class="text-4xl font-bold text-center text-primary">Our Community</h2>
 
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Safni Mariyam</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Chairperson</p>
+                </div>
+            </div>
+            <div class="container mx-auto  mt-16 bg-gray-200 rounded-2xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 ">
+                    <div className="grid p-10">
+                        <div class="flex flex-col  items-start justify-center space-y-6 ">
+                            <h3 class="text-3xl font-bold text-secondary text-left">Meet the Visionaries: SLIIT IEEE RAS Chapter (2023)</h3>
+                            <p class="text-gray-600 text-md text-left">In 2023, the blueprint for tomorrow's technological landscape was drawn by our visionary Founding Chairperson, Malika Amila Dayananda. Alongside, working in tandem, are our meticulous Secretary, Thedini Gamage, and dynamic Vice President, Udula Wijesinghe.
 
-                                
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="#">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
-                                
-                            </div>
-
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Bavatharani Janahiram</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Vice Chairperson</p>
-
-                                
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="#">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
-                                
-                            </div>
-
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Rozmin Zamha</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Secretary</p>
-
-                                
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="#">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
-                                
-                            </div>
-
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Oshini Wickrama</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Treasurer</p>
-
-                                
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="#">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
-                                
-                            </div>
-
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Shavidini Ekanayake</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Webmaster</p>
-
-                                
-                            </div>
-                        </a>
-                    </article>
-
+                            </p>
+                        </div>
+                        <div class="flex flex-col  items-start justify-start space-y-6 ">
+                            <h3 class="text-xl font-bold text-secondary text-left">The Pioneering Team</h3>
+                            <ul className="">
+                                <li className="text-gray-800 font-bold">Malika Amila Dayananda (Founding Chairperson)<br/><span className="text-gray-600 font-normal">A trailblazer with a fervor for advancing technology, leading the charge towards innovation.</span></li>
+                            </ul>
+                            <ul className="">
+                                <li className="text-gray-800 font-bold">Thedini Gamage (Secretary)<br/><span className="text-gray-600 font-normal">An organizational maestro ensuring precision in every operation.</span></li>
+                            </ul>
+                            <ul className="">
+                                <li className="text-gray-800 font-bold">Udula Wijesinghe (Vice President)<br/><span className="text-gray-600 font-normal">A creative force propelling us towards uncharted technological territories.</span></li>
+                            </ul>
+                        </div>
+                    </div>
                     
+
+                    <div className="grid gap-6 my-10 mr-10">
+                        <div class="flex flex-col items-start justify-center space-y-6 p-10 bg-gradient-to-br from-primary to-secondary  rounded-xl shadow-xl">
+                            <h3 class="text-2xl font-bold text-white text-left">Forging the Path to Excellence</h3>
+                            <p class="text-white text-md text-left">Establishing SLIIT IEEE RAS was not a mere endeavor; it was a journey of resilience and commitment. Through challenges and triumphs, our chapter has evolved, setting the stage for technological excellence.
+
+                            </p>
+                        </div>
+                        <div class="flex flex-col  items-start justify-center space-y-6 p-10 bg-gradient-to-br from-primary to-secondary  rounded-xl shadow-xl">
+                            <h3 class="text-2xl font-bold text-white text-left">Uniting Dreams and Reality</h3>
+                            <p class="text-white text-md text-left">SLIIT IEEE RAS is more than an organization; it’s a convergence of dreams and reality. With Malika Amila Dayananda at the helm, we are the architects of the future, shaping the technological landscape at SLIIT through collaboration, innovation, and unwavering dedication.
+
+                            </p>
+                        </div>
+                        <div class="flex flex-col  items-start justify-center space-y-6 p-10 bg-gradient-to-br from-primary to-secondary  rounded-xl shadow-xl">
+                            <h3 class="text-2xl font-bold text-white text-left">Our Open Invitation</h3>
+                            <p class="text-white text-md text-left">As we inaugurate the SLIIT IEEE RAS Chapter, we extend a warm invitation to all tech enthusiasts, dreamers, and innovators. Join us on this visionary journey, where technology knows no bounds, and the legacy of innovation is our shared pursuit.
+
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
                 </div>
 
-                <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Current executive board<span class="text-black">.</span></h1>
-                <p class=" text-gray-600 text-md text-center max-w mb-10">The Executive Board of IEEE WIE Affinity Group 2023/24 of SLIIT.</p>
+            </div>
 
-                <div class="mx-auto px-20 grid max-w-screen-xl grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-4">
+            <section class="max-w-screen-2xl px-10 mx-auto my-20">
+
+
+                <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Current executive board<span class="text-black">.</span></h1>
+                <p class=" text-gray-600 text-md text-center max-w mb-10">The Executive Board of IEEE RAS 2023/24 of SLIIT.</p>
+
+                <div class="mx-auto px-20 grid max-w-screen-xl grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3">
                     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="https://www.linkedin.com/in/yashodha-athapattu-883228235/">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Yasodas} alt="Hotel Photo" />
-                                
+                                <img src={Profile} alt="Hotel Photo" />
+
                             </div>
 
                             <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Yashoda Athapattu</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Chairperson</p>
+                                <h2 class="text-gray-900 font-semibold text-lg">Malika Amila Dayananda</h2>
+                                <p class="text-secondary mt-1 text-md font-semibold ">Founding Chairperson</p>
 
-                                
+
                             </div>
                         </a>
                     </article>
 
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-                        <a href="https://www.linkedin.com/in/imethmakariyawasam">
-                            <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Imethma} alt="Hotel Photo" />
-                                
-                            </div>
 
-                            <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Imethma Kariyawasam</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Vice Chairperson</p>
-
-                                
-                            </div>
-                        </a>
-                    </article>
 
                     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="http://www.linkedin.com/in/owadibandara">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Owadi} alt="Hotel Photo" />
-                                
+                                <img src={Profile} alt="Hotel Photo" />
+
                             </div>
 
                             <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Owadi Bandara</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Secretary</p>
+                                <h2 class="text-gray-900 font-semibold text-lg">Thedini Gamage</h2>
+                                <p class="text-secondary mt-1 text-md font-semibold ">Secretary</p>
 
-                                
+
                             </div>
                         </a>
                     </article>
@@ -150,21 +112,21 @@ export default function Team() {
                     <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="https://www.linkedin.com/in/nisuni-sineja-184414304">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Nisuni} alt="Hotel Photo" />
-                                
+                                <img src={Profile} alt="Hotel Photo" />
+
                             </div>
 
                             <div class="mt-1 p-2">
-                                <h2 class="text-gray-900 font-semibold text-lg">Nisuni Sineja</h2>
-                                <p class="text-primary mt-1 text-md font-semibold ">Vice Secretary</p>
+                                <h2 class="text-gray-900 font-semibold text-lg">Udula Wijesinghe</h2>
+                                <p class="text-secondary mt-1 text-md font-semibold ">Vice Presidenty</p>
 
-                                
+
                             </div>
                         </a>
                     </article>
 
 
-                    
+
                 </div>
             </section>
 

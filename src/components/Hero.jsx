@@ -7,7 +7,7 @@ export default function Hero() {
 
 <div >
 <main class="">
-        <section class="relative  text-white overflow-hidden">
+        <section class="relative  text-white overflow-hidden ">
             <div class="absolute inset-0 ">
 
             <img src={hero} class="w-full  absolute bg-cover bg-center " />
