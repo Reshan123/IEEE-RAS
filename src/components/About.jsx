@@ -5,7 +5,7 @@ import robot from "../assets/robo.png"
 export default function About() {
     return (
         <>
-        <section class="pb-10 px-20">
+        <section class="pb-10 px-6 md:px-20">
             <div class="container mx-auto ">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Who are we?</h2>
