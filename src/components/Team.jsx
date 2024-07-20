@@ -14,10 +14,10 @@ export default function Team() {
 
                 </div>
             </div>
-            <section class="pb-10 px-20">
+            <section class="pb-10 px-6  md:px-20">
             <div class="container mx-auto  mt-16 bg-gray-200 rounded-2xl">
                 <div class="grid grid-cols-1 md:grid-cols-2 ">
-                    <div className="grid p-10">
+                    <div className="grid p-6  md:p-10">
                         <div class="flex flex-col  items-start justify-center space-y-6 ">
                             <h3 class="text-3xl font-bold text-secondary text-left">Meet the Visionaries: SLIIT IEEE RAS Chapter (2023)</h3>
                             <p class="text-gray-600 text-md text-left">In 2023, the blueprint for tomorrow's technological landscape was drawn by our visionary Founding Chairperson, Malika Amila Dayananda. Alongside, working in tandem, are our meticulous Secretary, Thedini Gamage, and dynamic Vice President, Udula Wijesinghe.
@@ -39,7 +39,7 @@ export default function Team() {
                     </div>
                     
 
-                    <div className="grid gap-6 my-10 mx-10">
+                    <div className="grid gap-6 md:my-10 my-4 mx-4  md:mx-10">
                         <div class="flex flex-col items-start justify-center space-y-6 p-10 bg-gradient-to-br from-primary to-secondary  rounded-xl shadow-xl">
                             <h3 class="text-2xl font-bold text-white text-left">Forging the Path to Excellence</h3>
                             <p class="text-white text-md text-left">Establishing SLIIT IEEE RAS was not a mere endeavor; it was a journey of resilience and commitment. Through challenges and triumphs, our chapter has evolved, setting the stage for technological excellence.
@@ -70,14 +70,14 @@ export default function Team() {
             </div>
             </section>
 
-            <section class="max-w-screen-2xl px-10 mx-auto my-20">
+            <section class="max-w-screen-lg px-10 mx-auto my-10  md:my-20">
 
 
                 <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Current executive board<span class="text-black">.</span></h1>
                 <p class=" text-gray-600 text-md text-center max-w mb-10">The Executive Board of IEEE RAS 2023/24 of SLIIT.</p>
 
-                <div class="mx-auto px-20 grid max-w-screen-xl grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3">
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+                <div class="mx-auto px-0 justify-items-center grid max-w-screen-lg grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3">
+                    <article class="rounded-xl bg-white max-w-[400px] md:w-[300px] p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="https://www.linkedin.com/in/yashodha-athapattu-883228235/">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
                                 <img src={Profile} alt="Hotel Photo" />
@@ -95,7 +95,7 @@ export default function Team() {
 
 
 
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+                    <article class="rounded-xl bg-white max-w-[400px] md:w-[300px] p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="http://www.linkedin.com/in/owadibandara">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
                                 <img src={Profile} alt="Hotel Photo" />
@@ -111,7 +111,7 @@ export default function Team() {
                         </a>
                     </article>
 
-                    <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+                    <article class="rounded-xl bg-white max-w-[400px] md:w-[300px] p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="https://www.linkedin.com/in/nisuni-sineja-184414304">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
                                 <img src={Profile} alt="Hotel Photo" />

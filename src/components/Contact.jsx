@@ -25,7 +25,7 @@ export default function Contact() {
 
                     <div className="flex items-stretch justify-center">
                         <div className="grid md:grid-cols-2">
-                            <div className="h-full pr-6">
+                            <div className="h-full pr-6 px-6 sm:px-6 lg:px-8">
                                 <p className="mt-3 mb-12 text-lg text-gray-300 ">
                                     We're here to support you. Reach out with any questions about our events, membership, or initiatives.
                                 </p>

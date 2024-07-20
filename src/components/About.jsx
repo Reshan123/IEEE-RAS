@@ -5,7 +5,7 @@ import robot from "../assets/robo.png"
 export default function About() {
     return (
         <>
-        <section class="pb-10 px-6 md:px-20">
+        <section class="pb-10 px-6  md:px-20">
             <div class="container mx-auto ">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Who are we?</h2>
@@ -17,7 +17,7 @@ export default function About() {
             </div>
 
             <div class="container mx-auto mt-16">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-8">
                     <div class="flex flex-col items-center justify-center space-y-6 p-8 bg-gray-200 rounded-xl">
                         <h3 class="text-3xl font-bold text-secondary text-center"><span className="text-xl text-primary">We Are</span><br />Innovators</h3>
                         <p class="text-gray-600 text-md text-center">At our core, we are a diverse group of tech enthusiasts, from coding maestros to
@@ -61,7 +61,7 @@ export default function About() {
             
 
             <div className="my-20 w-full mx-auto ">
-                <div className="relative flex gap-20 md:px-40 sm:px-32  max-[640px]:px-14 bg-cover filter ">
+                <div className="relative flex-row lg:flex md:flex gap-20 md:px-40 sm:px-32  max-[640px]:px-14 bg-cover filter ">
                     <div className="absolute  inset-0 bg-gradient-to-r from-primary to-secondary "></div>
                     <div className="relative z-10">
                         <h3 className="text-3xl font-bold text-white text-center py-10">Why Join?</h3>
@@ -80,14 +80,14 @@ export default function About() {
                 </div>
             </div>
 
-            <section class="pb-10 px-20">
+            <section class="pb-10 px-6 md:px-20">
 
             <div class="container mx-auto  mt-16 bg-gray-100 rounded-2xl">
-                <div class="grid grid-cols-1 md:grid-cols-2 ">
+                <div class="grid grid-cols-1 lg:grid-cols-2 items-end">
             
-                    <img src={robot} className="w-[600px] mx-auto p-20 pb-0" />
+                    <img src={robot} className="w-[610px] mx-auto md:p-20 md:pb-0 lg:p-10 p-8 lg:pb-0 pb-0 bg-cover z-10" />
 
-                    <div className="grid gap-6 my-10 mr-10">
+                    <div className="grid gap-6  mt-0 sm:mt-0 mx-8 mb-8 md:mt-0 lg:m-8 z-20">
                         <div class="flex flex-col items-start justify-center space-y-6 p-10 bg-gray-200 rounded-xl shadow-xl">
                             <h3 class="text-3xl font-bold text-secondary text-left">Vision</h3>
                             <p class="text-gray-600 text-md text-left">We envision SLIIT IEEE RAS as the driving force that propels SLIIT into the
@@ -127,7 +127,7 @@ export default function About() {
             </div>
 
             <div class="container mx-auto mt-16">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <div class="flex flex-col items-center justify-center space-y-6 p-6 bg-gray-200 rounded-xl">
                         <h3 class="text-xl font-bold text-secondary text-center">Technology Integration</h3>
