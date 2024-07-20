@@ -8,7 +8,7 @@ import Nisuni from "../assets/Nisuni.JPG"
 export default function Team() {
     return (
         <>
-            <div class="container mx-auto px-4 mt-10">
+            <div class="container mx-auto px-4 mt-10" id="committee">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Our Community</h2>
 

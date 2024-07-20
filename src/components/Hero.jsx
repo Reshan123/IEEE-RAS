@@ -4,7 +4,7 @@ import hero from "../assets/hero-3.jpg"
 export default function Hero() {
     return (
         <div>
-            <main>
+            <main id="home">
                 <section className="relative text-white overflow-hidden">
                 <div 
                     className="absolute inset-0 bg-cover bg-center" 

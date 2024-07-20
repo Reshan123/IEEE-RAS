@@ -5,7 +5,7 @@ import robot from "../assets/robo.png"
 export default function About() {
     return (
         <>
-        <section class="pb-10 px-6  md:px-20">
+        <section class="pb-10 px-6  md:px-20" id="about">
             <div class="container mx-auto ">
                 <div class="flex flex-col items-center justify-center space-y-8">
                     <h2 class="text-4xl font-bold text-center text-primary">Who are we?</h2>
@@ -60,7 +60,7 @@ export default function About() {
             </section>
             
 
-            <div className="my-20 w-full mx-auto ">
+            <div className="my-20 w-full mx-auto " id="join">
                 <div className="relative flex-row lg:flex md:flex gap-20 md:px-40 sm:px-32  max-[640px]:px-14 bg-cover filter ">
                     <div className="absolute  inset-0 bg-gradient-to-r from-primary to-secondary "></div>
                     <div className="relative z-10">
